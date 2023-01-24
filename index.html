@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
 <!-- add google fonts here -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 
     <link href="styles.css" rel="stylesheet">
     <title>Document</title>
@@ -13,52 +16,66 @@
 
 <body>
     <header>
-        <div id="banner">
+        
         <h1>Afrah Said</h1>
         <h2>DES 157A - Intractive Medis II - Winter 2023</h2>
 
-        <!-- <div id="banner"> -->
+        <div id="banner">
 
+           <img id = "heart" src="images/bHeart.png">
         </div>
     </header>
 
+    <!-- <div id="banner"></div> -->
+
     <main>
-        <article>
-            <h2>studios</h2>
-            <ul>
-                <li><a href="#">Learning Journal</a></li>
-                <li><a href="#">Mad Libs 2.0</a></li>
-                <li><a href="#">Every Picture</a></li>
-                <li><a href="#">Game On!</a></li>
-            </ul>
-            <h2>experiments</h2>
-            <ul>
-                <li><a href="#">Experiment 1</a></li>
-                <li><a href="#">Experiment 2</a></li>
-            </ul>
-        </article>
+        <div class = "parent">
+            <div class = "first">
+                <article>
+                    <h2>studios</h2>
+                    <ul>
+                        <li><a href="#">Learning Journal</a></li>
+                        <li><a href="#">Mad Libs 2.0</a></li>
+                        <li><a href="#">Every Picture</a></li>
+                        <li><a href="#">Game On!</a></li>
+                    </ul>
+                    <h2>experiments</h2>
+                    <ul>
+                        <li><a href="exp/exp1.html">Experiment 1</a></li>
+                        <li><a href="#">Experiment 2</a></li>
+                    </ul>
+                </article>
+            </div>
 
-        <article>
-            <h2>r&d</h2>
-            <ul>
-                <li><a href="#">Project Brief</a></li>
-                <li><a href="#">Design Comp</a></li>
-                <li><a href="#">Version 1</a></li>
-                <li><a href="#">Version 2 (User Test)</a></li>
-                <li><a href="#">User Test Results</a></li>
-            </ul>
-        </article>
 
-        <article>
-            <h2>final</h2>
-            <ul>
-                <li><a href="#">Final Project</a></li>
-            </ul>
-        </article>
+            <div class = "middle">
+                <article>
+                    <h2>r&d</h2>
+                    <ul>
+                        <li><a href="#">Project Brief</a></li>
+                        <li><a href="#">Design Comp</a></li>
+                        <li><a href="#">Version 1</a></li>
+                        <li><a href="#">Version 2 (User Test)</a></li>
+                        <li><a href="#">User Test Results</a></li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class = "last">
+                <article>
+                    <h2>final</h2>
+                    <ul>
+                        <li><a href="#">Final Project</a></li>
+                    </ul>
+                </article>
+            </div>
+        </div>
     </main>
 </body>
 
 <footer>
-    <a href="mailto:&#097;&#097;&#115;&#097;&#105;&#100;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">Email Me</a>
+    <div id = "footer">
+     <a href="mailto:&#097;&#097;&#115;&#097;&#105;&#100;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">Email Me</a>
+    </div>
 </footer>
 </html>
