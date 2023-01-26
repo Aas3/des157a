@@ -1,14 +1,11 @@
-html{
-    max-width: 1200px;
-    max-height: 750px;
-}
+
 
 header{
     
     font-family: 'Roboto Mono', monospace;
     /* text-align: center; */
     font-size: 8px;
-    padding-left:84px;
+    /* padding-left:84px; */
     text-align: left;
     width:1100px;
     margin:auto;
@@ -18,7 +15,10 @@ body{
     background-image: url("images/bg.png");
     background-color: #C3D4FA;
     max-width: 1200px;
-    max-height: 750px;
+    height: 750px;
+    margin: auto;
+    /* max-width: 1200px;
+    max-height: 750px; */
 }
 main{
     
@@ -29,7 +29,7 @@ article{
     /* display:inline-block; */
     background-color: #F2D399;
     width: 200px;
-    height: 250px;
+    height: 290px;
 }
 
 a{
@@ -51,10 +51,11 @@ ul{
 li{
     font-family: 'Roboto Mono', monospace;
     transition: transform .3s; 
+    padding-top: 10px;
 }
 
 li:hover{
-    background-color: #F2EC94;
+    /* background-color: #F2EC94; */
     transform: scale(1.25);
 }
 footer{
@@ -73,7 +74,8 @@ text-align: center;
     width: 1100px;
     height: 250px;
     background-image: url("images/bannerb.png");
-    background-color: #9F8FBF;
+    /* background-color: #9F8FBF; */
+
     /* justify-content: center;
     justify-content: space-around;
     text-align: center; */
@@ -83,7 +85,8 @@ text-align: center;
     display: flex;
     width: 150px;
     padding-top: 50px;
-    justify-content:space-around;
+    padding-left: 50px;
+    justify-content:center;
 }
 #heart:hover {
     content: url("images/rHeart.png");
@@ -93,7 +96,7 @@ width: 1200px;
 display: flex;
 /* padding-top: 30px;
 padding-bottom: 10px; */
-padding: 20px;
+padding-top: 20px;
 justify-content: center;
 justify-content: space-around;
 
