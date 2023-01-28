@@ -1,0 +1,20 @@
+header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    max-width: 1200px;
+    height: 750px;
+    margin: auto;
+}
+
+article{
+    /* background-color: aqua; */
+    width: 900px;
+}
+
+p{
+    width: 800px;
+}
+
+
