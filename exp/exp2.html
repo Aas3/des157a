@@ -29,17 +29,21 @@
       var greeting = function(){
             var userAnswer = prompt('reply back with a hi or bye', "");
 
-            if(userAnswer === hi){
+            userAnswer=userAnswer.toLowerCase();
+
+            if(userAnswer === "hi"){
                 console.log("HI! its nice to meet you!  °˖✧◝(⁰▿⁰)◜✧˖° ");
-                for(var i=0; i=== hi; i++){
-                    console.log('hi ${i}');
+                for(var i=0; i=== userAnswer.length ; i++){
+                    console.log(`hi ${i}`);
                 }
             }
-            else if(userAnswer === bye ){
+            else if(userAnswer === "bye" ){
                 console.log("Youre leaving already ... bye ( ˃̣̣̥⌓˂̣̣̥) (ुŏ̥̥̥̥ ‸ ŏ̥̥̥̥) ु");
             }
-            else(userAnswer != HI || BYE )
-                console.log("Im not programmed to understand that ¯\_(ツ)_/¯ try one of the options instead");
+            else{
+                console.log("try one of the options instead ¯\_(ツ)_/¯ ");
+                console.log(`lengthOfString: ${userAnswer.length}`)
+            }
      
             }
             greeting();
