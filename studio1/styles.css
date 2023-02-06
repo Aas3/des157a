@@ -1,0 +1,46 @@
+/* //form layout */
+lable, input {
+    display:block;
+}
+input{
+    margin-bottom: 50px;
+}
+fieldset input, fieldset label{
+    display: inline;
+}
+fieldset label{
+    margin-bottom: 50px;
+}
+
+
+
+/* Page css */
+header{
+    width:1100px;
+    margin:auto;
+}
+
+div{
+    /* display: block;
+    padding-left: 1050px; */
+    
+
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#formBackground{
+    display: block;
+    padding: 50px;
+    align-content: center;
+    background-color: bisque;
+    width: 500px;
+    margin-left: auto;
+}
+form{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding-left: 50px;
+}

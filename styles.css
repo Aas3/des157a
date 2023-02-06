@@ -56,9 +56,14 @@ main{
 article{
     padding: 30px;
     /* display:inline-block; */
-    background-color:aliceblue;
+    background-color:#DAE2E8;
     width: 200px;
     height: 290px;
+}
+
+article:hover{
+    background-color: aliceblue;
+    /* background-color:#F8D6E4; */
 }
 
 
@@ -133,14 +138,14 @@ animation-duration: 2s;
 p:hover{
 
 }
-@keyframes animate{
+/* @keyframes animate{
     0%{
        transform:translateY(0) ; 
     }
     20%{
         transform:translateY(-20) ;
     }
-}
+} */
 
 
 
@@ -209,4 +214,14 @@ justify-content: space-around;
     border-style:outset;
     border-width: 10px;
     border-color: black;
+}
+
+.first:hover{
+    border-color: #49F2C2;
+}
+.middle:hover{
+    border-color: #49F2C2;
+}
+.last:hover{
+    border-color: #49F2C2;
 }
