@@ -14,6 +14,8 @@ body{
 article{
     /* background-color: aqua; */
     width: 900px;
+    padding-left: 20px;
+    background-color: blanchedalmond;
 }
 
 p{
