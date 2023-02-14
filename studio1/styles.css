@@ -1,71 +1,173 @@
-/* //form layout */
-lable, input {
-    display:block;
+/* //////////////// Page css ///////////////////////* */
+body {
+    font-family: arial;
+    color: #333;
+    line-height: 1.4em;
+    background-color: #3BBCD9;
+
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+header{
+    position:relative;
+    /* margin-top: 100px; */
+    /* color: #88E8F2; */
+    /* font-size: 100px ;
+    line-height: 1em; */
+    text-align: center;
+    font-family: 'Concert One', cursive;
+}
+header,h1{
+    font-size: 140px ;
+    color: #88E8F2;
+    line-height: 1em;
+    margin-top: 150px;
+}
+header,p{
+    font-size: 60px ;
+    line-height: 1.4em;
+    color: #88E8F2;
+    
+}
+.open{
+    background-color: #88E8F2;
+    border: none;
+    font-family: 'Concert One', cursive;
+    color: #3BBCD9;
+    padding: 25px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 10%;
+}
+.open:hover{
+    background-color: #3BBCD9;
+    color: #88E8F2;
+    border-style: inset;
+    border-color: #88E8F2;
+}
+
+main {
+
+    /* max-width: 600px;
+    padding: 20px;
+    margin: auto;
+    background-color: aliceblue; */
+}
+form{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+
+/*  ////////////////////// overlays /////////////////*/
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing {
+    visibility: visible;
+    opacity: 1;
+}
+#input{
+    position: absolute;
+    background-color: #3BBCD9;
+    /* background-image: url("images/tan\ -\ Copy\ \(2\).jpg"); */
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transition-property: opacity, visibility;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+#input article{
+    padding: 50px;
+    align-content: center;
+    background-color: #FFC43B;
+    width: 500px;
+    /* height: 700PX; */
+    margin-left: auto;
+    margin-right: 600px;
+    margin-top: 50px;
+    /* padding-left: 10px; */
+    border-radius: 5%;
+    color: #594020;
+
+}
+.open2{
+    background-color: #D9731A;
+    /* border: none; */
+    border-style:outset;
+    font-family: 'Concert One', cursive;
+    border-color: #D9731A;
+    color: #594020;
+    padding: 15px 33px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 20px;
+    border-radius: 10%;
+    text-align: center;
+    color: #261201;
+}
+.open2:hover{
+    /* background-color: #F2B705; */
+    background-color: #FFE6AA;
+    border-style:inset;
+    border-color: #594020;;
+    color: #594020;
+}
+
+#output{
+    position: absolute;
+    background-color: #3BBCD9;
+    background-image: url(images/funfetty.png);
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transition-property: opacity, visibility;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+#output article{
+    padding: 70px;
+    align-content: center;
+    background-color:#FFE6AA;
+    margin-top: 200px;
+    width: 900px;
+    height: 350px;
+    margin-inline: auto;
+    /* margin-left: auto; */
+    border-radius: 5%;
+
+    font-size: 35px;
+    line-height: 1.4em;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+/* //////////////// form layout //////////////////*/
+label, input {
+    display:block;
+    margin: 10px;
+    font-size: 25px;
+    font-family: 'Concert One', cursive;
 }
 input{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 fieldset input, fieldset label{
     display: inline;
 }
 fieldset label{
     margin-bottom: 50px;
-}
-
-
-
-/* Page css */
-header{
-    display: block;
-    background-color: aqua;
-    width:1100px;
-    margin-right: auto;
-    
-}
-
-body{
-    background-color: #F2F0F0;
-}
-h1{
-    font-size: 80px;
-    margin-right: auto;
-}
-
-p{
-    font-family:'Fredoka One', cursive;
-    /* font-family: 'Concert One', cursive; */
-    font-size: 50px;
-    padding-left: 100px;
-}
-
-div{
-    /* display: block; */
-    padding-top: 100px;
-    padding-right: 200px;
-
-
-}
-h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.text{
-    background-color: aqua;
-}
-
-
-#formBackground{
-    display: block;
-    padding: 50px;
-    align-content: center;
-    background-color: #F299B9;
-    width: 500px;
-    margin-left: auto;
-    border-radius: 5%;
-}
-form{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    padding-left: 50px;
 }

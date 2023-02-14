@@ -1,39 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
-    <script scr="script.js" defer></script>
+    <title>Overlay Example 2</title>
 
-    <!-- //fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-
+    <!-- //////////// FONTS ////////////////////////////////////// -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <!-- link to normalize -->
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
 
 
-    <title>Mad Lib</title>
-</head>
+    </head>
 
 <body>
+    <header>
+        <section id="intro">
+            <h1>Welcome to </h1>
+            <p>the birthday card mad lib!</p>
+            <!-- <p>Press 'Next' to start</p> -->
+            <button class="open">Next</button>
+        </section>
+    </header>
 
-    <section input>
-       
-            <!-- <h1>HAPPY BIRTHDAY!</h1> -->
-            <!-- <p> Fill out the form to receive a <br>
-                 Birthday card from me Z! </p> -->
-       
-        <div>
-        <!-- <article class="text">
-            <p> Fill out the form to receive a <br>
-                Birthday card from me Z! </p>
-        </article> -->
+
+    <main>
+        <section id="input" class="hidden">
+            <article>
+                <form id="myForm">
+                    <label for="yName">Your Name</label>
+                    <input type="text" id="yName"></input>
+
+                    <label for="number">Number</label>
+                    <input type="text" id="number"></input>
+
+                    <label for="emotion">Emotion</label>
+                    <input type="text" id="emotion"></input>
+
+                    <label for="adj">Adjective</label>
+                    <input type="text" id="adj"></input>
+
+                    <label for="adj2">Adjective</label>
+                    <input type="text" id="adj2"></input>
+
+                    <input type="submit" value="send" class="open2"> </input>
+                </form>
+                <p id="errorMsg"></p>
+            </article>
+        </section>
+
+
+        <section id="output" class="hidden">
+            <article id="madlib"></article>
+            <!-- <button class="open3">Play Again</button> -->
+        </section>
+
+    </main>
+</body>
+
+</html>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <!-- <section input>
         
 
         <article id="formBackground">
@@ -73,11 +122,4 @@
 
         </article>
          </div>
-    </section>
-
-
-    <section output>
-        ...
-    </section>
-</body>
-</html>
+    </section> -->
