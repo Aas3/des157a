@@ -11,7 +11,7 @@ body {
 }
 
 header{
-    position:relative;
+    /* position:relative; */
     /* margin-top: 100px; */
     /* color: #88E8F2; */
     /* font-size: 100px ;
@@ -20,13 +20,13 @@ header{
     font-family: 'Concert One', cursive;
 }
 header,h1{
-    font-size: 140px ;
+    font-size: 150px ;
     color: #88E8F2;
     line-height: 1em;
     margin-top: 150px;
 }
 header,p{
-    font-size: 60px ;
+    font-size: 90px ;
     line-height: 1.4em;
     color: #88E8F2;
     
