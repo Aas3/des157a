@@ -1,0 +1,123 @@
+
+body{
+    max-width: 1200px;
+    min-width: 800px;
+    width: 100%;
+    /* max-height: 2991; */
+    
+    background-image: url("images/paperlong-100.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+
+}
+
+/****************** INTRO *****************/
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+    padding-bottom: 200px;
+}
+h1{
+    padding-top: 100px;
+    font-size: 150px;
+}
+h2{
+    font-size: 60px;
+}
+
+/****************** MAIN *****************/
+
+main {
+    display:flex;
+	/* width: 30vw;
+    height: 3065px;
+	padding: 40px;
+    padding-top: 300px;
+    background-color: aliceblue; */
+}
+section {
+	/* display:block; */
+
+    width: 30vw;
+    height: 3065px;
+	padding: 40px;
+    padding-top: 300px;
+    background-color: aliceblue;
+}
+
+article{
+    height: 100vh;
+
+    
+}
+
+h3{
+    font-size: 40px;
+}
+
+p{
+    line-height: 1.5em;
+}
+
+div {
+    /* margin-left: auto;
+    margin-right: 0; */
+    /* float: right; */
+
+    display:inline-block;
+    
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+
+    position: relative;
+    
+    margin: auto;
+
+    top: 0;
+    right: 0;
+   
+}
+
+img {
+    width: 100%;
+    
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* .img1{
+   padding-left: 800px;
+    
+} */
+
+/****************** CLASS & IDs *****************/
+/* .img1,
+.img2,
+.img3,
+.img4{
+    width: 3768px;
+}
+
+.img1 {
+    top: 0;
+    left: 0;
+}
+
+.img2 {
+    top: 0;
+    left: calc(-3768px + 70vw);
+}
+
+.img3 {
+	top: calc(-2567px + 100vh);
+    left: 0;
+}
+
+.img4 {
+    top: calc(-2567px + 100vh);
+    left: calc(-3768px + 70vw);
+}
+ */
