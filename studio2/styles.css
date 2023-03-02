@@ -1,29 +1,32 @@
-
 body{
     max-width: 1200px;
     min-width: 800px;
     width: 100%;
-    /* max-height: 2991; */
-    
+    max-height: 2991;
     background-image: url("images/paperlong-100.jpg");
     background-size: 100%;
     background-repeat:no-repeat;
 
 }
 
+
+
 /****************** INTRO *****************/
 header{
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 100px;
+    font-family: 'Special Elite', cursive;
+    padding-left: 150px;
     padding-bottom: 200px;
+    color: #403B38;
 }
 h1{
-    padding-top: 100px;
+    padding-top: 50px;
     font-size: 150px;
 }
 h2{
     font-size: 60px;
 }
+
+
 
 /****************** MAIN *****************/
 
@@ -35,20 +38,10 @@ main {
     padding-top: 300px;
     background-color: aliceblue; */
 }
-section {
-	/* display:block; */
-
-    width: 30vw;
-    height: 3065px;
-	padding: 40px;
-    padding-top: 300px;
-    background-color: aliceblue;
-}
 
 article{
     height: 100vh;
 
-    
 }
 
 h3{
@@ -58,11 +51,56 @@ h3{
 p{
     line-height: 1.5em;
 }
+    
+
+
+/****************** OVERLAY 1 *****************/
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing {
+    visibility: visible;
+    opacity: 1;
+}
+
+#sec1{
+    width: 30vw;
+    height: 3065px;
+	padding: 40px;
+    padding-top: 300px;
+    background-color: rgba(242, 237, 228, .5);
+    /* opacity: 0.5; */
+
+    transition-property: opacity, visibility;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+   
+}
+
+
+
+/****************** IMAGES & OVERLAY 2 *****************/
+
+#sec2{
+    width: 30vw;
+    height: 3065px;
+	padding: 40px;
+    padding-top: 300px;
+    /* padding-left: 500px; */
+
+    transition-property: opacity, visibility;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+/* #sec2 div{
+    height: 100vh;
+} */
 
 div {
-    /* margin-left: auto;
-    margin-right: 0; */
-    /* float: right; */
 
     display:inline-block;
     
@@ -76,48 +114,14 @@ div {
 
     top: 0;
     right: 0;
+    
    
 }
 
 img {
     width: 100%;
-    
-
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
-/* .img1{
-   padding-left: 800px;
-    
-} */
-
-/****************** CLASS & IDs *****************/
-/* .img1,
-.img2,
-.img3,
-.img4{
-    width: 3768px;
-}
-
-.img1 {
-    top: 0;
-    left: 0;
-}
-
-.img2 {
-    top: 0;
-    left: calc(-3768px + 70vw);
-}
-
-.img3 {
-	top: calc(-2567px + 100vh);
-    left: 0;
-}
-
-.img4 {
-    top: calc(-2567px + 100vh);
-    left: calc(-3768px + 70vw);
-}
- */
