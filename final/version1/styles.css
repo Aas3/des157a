@@ -1,0 +1,113 @@
+body{
+    max-width: 1200px;
+    min-width: 800px;
+    width: 100%;
+    max-height: 2991;
+    /* background-image: url("images/paperlong-100.jpg"); */
+    background-color:aliceblue;
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+
+
+/*  ////////////////////// NAV /////////////////*/
+
+.hamburger{
+    display:inline;
+    cursor: pointer;
+    
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+    background-color: blue;
+}
+/* .hamburger.active.bar:nth-child(2){
+    opacity: 0;
+}
+.hamburger.active.bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active.bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+} */
+
+
+
+
+
+
+/*  ////////////////////// overlays /////////////////*/
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing {
+    visibility: visible;
+    opacity: 1;
+}
+#navOverlay{
+    background-color: #262626;
+
+    position: absolute;
+    /* background-color: rgba(0,0,0,0.5); */
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.close{
+    display:inline;
+    cursor: pointer;
+    
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+    background-color: blue;
+}
+/* .close.bar:nth-child(2){
+    opacity: 0;
+}
+.close.bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+.close.bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+} */
+
+
+
+/* .x{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+    background-color: blue; 
+}
+.close.x:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+.close.x:nth-child(2){
+    transform: translateY(-8px) rotate(-45deg);
+} */
+
+
+
+
+/* for mobile view */
+/* @media(max-width: 768px){
+
+} */
