@@ -5,16 +5,14 @@
     console.log('reading js');
 
 
+////////////// OVERLAYS ///////////////
 
     const hamburger= document.querySelector('.hamburger');
 
     hamburger.addEventListener('click', function(e){
         e.preventDefault();
         document.getElementById('navOverlay').className = 'showing';
-        
-        // if(hamburger ==='click'){
-            //     document.querySelector('.hamburger').className = 'hidden';
-            // }
+            
     });
 
             
@@ -30,6 +28,11 @@
         }
     });
     
+
+
+
+
+
 
 
 

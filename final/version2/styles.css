@@ -14,7 +14,7 @@ header{
 }
 main{
     /* will work as a container and dictate how things can be stacked/arranged */
-
+    overflow: hidden;
     display: inline;
 }
 h1{
@@ -68,6 +68,7 @@ nav{
     right: 0px;
     height: 50px;
     padding-right: 50px;
+    /* overflow: hidden; */
 }
 .hamburger{
     /* padding-top: 30px; */
