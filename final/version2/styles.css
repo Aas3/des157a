@@ -1,0 +1,183 @@
+body{
+    max-width: 1200px;
+    min-width: 800px;
+    width: 100%;
+    max-height: 2991;
+    margin: auto;
+    /* background-image: url("images/paperlong-100.jpg"); */
+    background-color:#262626;
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+header{
+
+}
+main{
+    /* will work as a container and dictate how things can be stacked/arranged */
+
+    display: inline;
+}
+h1{
+    /* padding-left: 0px; */
+    font-size: 150px;
+    color:black;
+}
+
+h2{
+    /* padding-left: 80px; */
+    font-size: 150px;
+    text-align: center;
+    color:grey;
+    padding-top: 400px;
+}
+
+
+
+
+#art{
+    /* display:flex;
+    padding-left: 400px;  */
+}
+.textBoxes{
+    display:inline;
+    padding-left: 400px;
+}
+.text{
+    width: 600px;
+    height: 200px;
+    padding: 50px;
+    background-color: aliceblue;
+}
+.photos{
+    display: inline;
+    padding-top: 300px;
+    
+}
+
+.pic{
+    padding-bottom:  40px;
+}
+
+
+
+
+/*  ////////////////////// First NAV /////////////////*/
+nav{
+    position: fixed;
+    top:10px;
+    right: 0px;
+    height: 50px;
+    padding-right: 50px;
+}
+.hamburger{
+    /* padding-top: 30px; */
+    /* padding-left: 1400px; */
+    display: block;
+    cursor: pointer;
+    
+}
+.bar{
+    display: block;
+    width: 50px;
+    height: 10px;
+    margin: 10px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+    background-color: pink;
+}
+.bar:hover{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+/*  ////////////////////// overlays /////////////////*/
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing {
+    visibility: visible;
+    opacity: 1;
+}
+#navOverlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    /* max-height: 750px; */
+    background-image: url("images/paperlong-100.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+
+.close{
+
+    position: fixed;
+    top:10px;
+    right: 0px;
+    height: 50px;
+    padding-right: 50px;
+}
+
+.bar2{
+    display: block;
+    width: 50px;
+    height: 10px;
+    margin: 10px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+    background-color: #262626;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    text-decoration: none;
+}
+
+
+/*  ////////////////////// PAGE /////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile view */
+/* @media(max-width: 768px){
+
+} */
+
+
+
+
+
+
