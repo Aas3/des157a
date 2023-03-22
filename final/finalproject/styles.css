@@ -1,0 +1,198 @@
+body{
+    background-color:#262626;
+ 
+}
+header{
+
+}
+main{
+ 
+}
+h1{
+    /* padding-left: 0px; */
+    font-size: 150px;
+    color:black;
+    padding-left: 50px;
+}
+
+h2{
+    /* padding-left: 80px; */
+    font-size: 150px;
+    text-align: center;
+    color:grey;
+    /* padding-top: 400px; */
+    
+}
+image{
+    height: 100px;
+}
+p{
+    font-size: 25px ;
+}
+#previous{
+    /* text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px; */
+   
+}
+
+/*  ////////////////////// SECTIONS /////////////////*/
+section{
+    height:150vh;
+    position: relative;
+}
+#two{
+    /* background-color: antiquewhite; */
+}
+#three{
+    /* background-color: magenta; */
+}
+#four{
+    /* background-color: blue; */
+}
+
+.text{
+    position: absolute;
+    top:100px;
+    left:100px;
+}
+
+/* glenda changes start */
+ /* glenda change to .pic from .photos */
+.pic{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    transition:right 1s;
+}
+.moveOutRight{
+    right:-700px;
+}
+.moveInRight{
+    right:100px;
+}
+
+.text{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    transition:left 1s;
+}
+.moveOutLeft{
+    left:-700px;
+}
+.moveInLeft{
+    left:100px;
+}
+
+/* glenda changes end */
+
+/* #art{
+    /* display:flex;
+    padding-left: 400px;  */
+/* } */
+.textBoxes{
+    display:inline;
+    padding-left: 400px;
+}
+.text{
+    width: 600px;
+    height: 450px;
+    padding: 50px;
+    background-color: aliceblue;
+
+    display: inline;
+}
+.photos{
+    display: inline;
+    padding-top: 300px;
+    max-height: 50%;
+
+}
+
+.pic{
+    padding-bottom:  40px;
+    
+}
+image{
+   height: 50px;
+}
+
+/*  ////////////////////// HOME NAV /////////////////*/
+nav{
+    position: fixed;
+    top:10px;
+    right: 0px;
+    height: 50px;
+    padding-right: 50px;
+}
+.hamburger{
+    /* padding-top: 30px; */
+    /* padding-left: 1400px; */
+    display: block;
+    cursor: pointer;
+    
+}
+.bar{
+    display: block;
+    width: 50px;
+    height: 10px;
+    margin: 10px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+    background-color: pink;
+}
+.bar:hover{
+    background-color: blue;
+}
+
+/*  ////////////////////// OPENED NAV /////////////////*/
+.button{
+    /* right: 50px; */
+}
+#previous2{
+
+}
+#next2{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile view */
+/* @media(max-width: 768px){
+
+} */
+
+
+
+
+
+
